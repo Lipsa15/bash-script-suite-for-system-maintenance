@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Minimal backup script — easy to explain in an interview
-# Usage: backup.sh [--dry-run] [path...]
-
 ROOT="$(dirname "$(dirname "$0")")"
 BACKDIR="$ROOT/logs/backups"
 LOG="$ROOT/logs/backup.log"

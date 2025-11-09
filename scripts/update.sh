@@ -4,8 +4,6 @@ set -euo pipefail
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Real, minimal updater — easy to explain
-# Usage: update.sh [--help]
 if [[ ${1:-} == "--help" ]]; then
   echo "Usage: $0"; exit 0
 fi
